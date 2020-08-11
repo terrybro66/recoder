@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+html body {
+  font-size: 82px;
+  margin: 44px;
+  background-color: rgb(181, 236, 218);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 6px 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.container2 {
+  background-color: #333;
+  margin: 0 18px;
+  padding: 1px 28px 4px;
+  border-radius: 12px;
+  height: 80vh;
+  font-size: 22px;
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chapter {
+  list-style: none;
+  flex-grow: 1;
+  transition: all 1.6s ease-in-out;
+  background-color: #333;
+  margin: 6px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.chapter:hover {
+  flex-grow: 400;
+}
+a {
+  text-indent: 25%;
+  line-height: 63px;
+  background: #333;
+  font-size: 80px;
+  color: #aaa;
+  transition: all 0.6s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+}
+a:hover {
+  color: #fd8a07;
+  text-shadow: 0 0 5px #fd8a07;
+  text-indent: 2%;
+}
+a div {
+  display: none;
+}
+a div:hover {
+  display: inline-block;
+}
+.menu {
+  font-size: 12px;
+}
+.char {
+  font-size: 18px;
 }
