@@ -10,8 +10,16 @@ const SectionNav = () => {
         </Link>
       </div>
       <div className="chapter">
-        <Link to="/javascript">
-          <i class="fab fa-js-square"></i>
+        <div>
+          <Link to="/javascript">
+            <i class="fab fa-js-square"></i>
+          </Link>
+        </div>
+        <Link to="/one">
+          <div>day one</div>
+        </Link>
+        <Link to="/two">
+          <div>day two</div>
         </Link>
       </div>
       <div className="chapter">
