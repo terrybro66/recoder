@@ -7,7 +7,10 @@ html body {
 }
 
 a {
-  display: block;
+  color: #aaa;
+}
+a:hover {
+  color: #fd8a07;
 }
 .container {
   display: flex;
@@ -44,12 +47,7 @@ a {
 }
 .chapter:hover {
   flex-grow: 400;
-  color: #fd8a07;
-}
-
-.chapter a:hover {
-  flex-grow: 400;
-  color: #fd8a07;
+  color: #fd8a07 !;
 }
 
 .menu {

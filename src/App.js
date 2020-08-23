@@ -13,8 +13,8 @@ function App() {
     <>
       <Router>
         <SectionNav />
-
         <Switch>
+          <Route path="/" exact component={MyReact} />
           <Route path="/react" component={MyReact} />
           <Route path="/javascript" component={Javascript} />
           <Route path="/css" component={Css} />
